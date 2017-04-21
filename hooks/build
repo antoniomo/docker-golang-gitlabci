@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
 docker build --build-arg GIT=1 --build-arg OPENSSH=1 --build-arg MAKE=1 \
-	--build-arg GOMETALINTER=1 --build-arg GLIDE=1 -t $IMAGE_NAME
+	--build-arg GOMETALINTER=1 --build-arg GLIDE=1 -t $IMAGE_NAME .
