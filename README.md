@@ -16,7 +16,7 @@ they are just informative), manages dependencies with
 are also on this self-hosted Gitlab.
 
 ```
-image: antoniomo:docker-golang1.8.1-gitlabci
+image: antoniomo/docker-golang-gitlabci:1.8.1
 
 variables:
   REPO_BASE: gitlab.XYZ.com
